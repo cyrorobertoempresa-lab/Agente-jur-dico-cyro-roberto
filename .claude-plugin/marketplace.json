@@ -1,0 +1,13 @@
+{
+  "name": "agente-juridico-cyro-roberto",
+  "owner": {
+    "name": "Cyro Roberto"
+  },
+  "plugins": [
+    {
+      "name": "advocacia",
+      "source": "./plugins/advocacia",
+      "description": "57 subagentes especializados para advocacia brasileira: cível, trabalhista, família, criminal, tributário, empresarial, consumidor, imobiliário, previdenciário, execução e consultivo."
+    }
+  ]
+}

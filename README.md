@@ -1,12 +1,19 @@
 # Agente Jurídico — Cyro Roberto
 
-57 subagentes do Claude Code para advocacia brasileira, em `.claude/agents/`.
-Origem: https://github.com/asv-digital/agents-advogados
+Plugin `advocacia` com 57 subagentes para advocacia brasileira, em `plugins/advocacia/agents/`.
+Origem dos agentes: https://github.com/asv-digital/agents-advogados
 
-Abrindo o Claude Code dentro deste repositório (local ou na nuvem), os agentes carregam automaticamente. Confira com `/agents`.
+## Cowork (app Claude)
 
-Para usar em qualquer projeto no seu computador:
+1. **Customize > Plugins > Add marketplace**
+2. Informe `cyrorobertoempresa-lab/Agente-jur-dico-cyro-roberto`
+3. Instale o plugin **advocacia**
 
-```bash
-cp .claude/agents/*.md ~/.claude/agents/
+## Claude Code
+
 ```
+/plugin marketplace add cyrorobertoempresa-lab/Agente-jur-dico-cyro-roberto
+/plugin install advocacia@agente-juridico-cyro-roberto
+```
+
+Confira com `/agents`.
